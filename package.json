@@ -1,0 +1,23 @@
+{
+  "name": "array-unique-deep",
+  "version": "1.0.0",
+  "description": "Remove duplicate values from an array deeply",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuoq/array-unique-deep.git"
+  },
+  "keywords": [
+    "array",
+    "unique"
+  ],
+  "author": "izqcool (https://github.com/zuoq)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zuoq/array-unique-deep/issues"
+  },
+  "homepage": "https://github.com/zuoq/array-unique-deep#readme"
+}
