@@ -4,7 +4,7 @@
   "description": "Remove duplicate values from an array deeply",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -12,12 +12,17 @@
   },
   "keywords": [
     "array",
-    "unique"
+    "unique",
+    "react"
   ],
   "author": "izqcool (https://github.com/zuoq)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zuoq/array-unique-deep/issues"
   },
-  "homepage": "https://github.com/zuoq/array-unique-deep#readme"
+  "homepage": "https://github.com/zuoq/array-unique-deep#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
+  }
 }
