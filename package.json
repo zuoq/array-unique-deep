@@ -1,6 +1,6 @@
 {
   "name": "array-unique-deep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Remove duplicate values from an array deeply",
   "main": "index.js",
   "scripts": {
