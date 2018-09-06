@@ -15,8 +15,6 @@
   for(let i=0;i<len;i++) {
     const type = Object.prototype.toString.call(arr[i]);
     let val;
-
-    console.log(arr[i]);
     switch (type) {
       case '[object Object]':
         val = JSON.stringify(arr[i]);
@@ -28,7 +26,6 @@
         val = arr[i];
         break;
     }
-    console.log(val);
     if(!json[val]) {
       json[val] = true;
       n.push(arr[i]);
@@ -36,4 +33,4 @@
   }
   return n;
 
-}
+};
